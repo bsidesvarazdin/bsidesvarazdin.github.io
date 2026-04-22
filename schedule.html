@@ -60,7 +60,9 @@
           <div class="block">
               Technical lectures, single track, relevant technical content with no sales talks.
           </div>
-
+          <div class="block">
+              Additional activities include: OWASP Croatia meeting (19:00 - 20:00).
+          </div>
 <!--
           <div class="block">
             <b>Keep in mind that most of the talks in the schedule will be presented in Croatian.</b>
@@ -68,10 +70,274 @@
 -->
 
           <div class="block">
-              CFP is open until 20.4.2026 (Monday).<br>
-	      Please submit your talk <a href="https://docs.google.com/forms/d/e/1FAIpQLSd-siS4-THSPBYkPzFjazJLE_YjiQ9JAGCDKjbqSm5LZSAUsA/viewform?usp=dialog">here</a>.<br>
-	      We will notify you of talk acceptance until 22.4.2026 (Wednesday).<br>
+            <table class="table is-fullwidth is-bordered has-background-grey-dark has-text-light">
+                <thead>
+                    <tr>
+                        <th style="color: #fff;">Time</th>
+                        <th style="color: #fff;">Speaker</th>
+                        <th style="color: #fff;">Subject</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>09:00 - 09:30</td>
+                        <td></td>
+                        <td>Registration</td>
+                    </tr>
+                    <tr>
+                        <td>09:30 - 10:15</td>
+                        <td>Ivan Fratric</td>
+                        <td>
+                            <a href="#goodbye-xslt" class="is-underlined">
+                                Goodbye, XSLT
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>10:30 - 10:50</td>
+                        <td>Vanja Svajcer</td>
+                        <td>
+                            <a href="#voidlink-cloud-first-post-exploitation-framework" class="is-underlined">
+                                Voidlink - cloud-first post exploitation framework
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>10:55 - 11:15</td>
+                        <td>Tomislav Turek</td>
+                        <td>
+                            <a href="#times-change-tricks-do-not" class="is-underlined">
+                                Times change, tricks don't
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>11:30 - 12:15</td>
+                        <td>Dejan Strbad</td>
+                        <td>
+                            <a href="#silent-receipts-loud-signals" class="is-underlined">
+                                Silent Receipts, Loud Signals: Offensive and Defensive ML for Messaging App Surveillance
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>12:15 - 14:00</td>
+                        <td></td>
+                        <td>Lunch Break (no organized lunch, make your own arrangements)</td>
+                    </tr>
+                    <tr>
+                        <td>14:00 - 14:45</td>
+                        <td>Dejan Grubic, Vlatko Kosturjak</td>
+                        <td>
+                            <a href="#real-world-ransomware-incident" class="is-underlined">
+                                Technical Analysis and Lessons from a Real-World Ransomware incident
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>15:00 - 15:45</td>
+                        <td>Dinko Korunić</td>
+                        <td>
+                            <a href="#caveats-using-ebpf-in-linux" class="is-underlined">
+                                Caveats using eBPF in Linux
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>15:45 - 16:15</td>
+                        <td></td>
+                        <td>Cake Break<sup>*</sup></td>
+                    </tr>
+                    <tr>
+                        <td>16:15 - 16:35</td>
+                        <td>Vlado Vince</td>
+                        <td>
+                            <a href="#building-a-global-appletalk-network" class="is-underlined">
+                                Networked Anachronisms: Building a Global AppleTalk Network a Few Decades Too Late
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>16:40 - 17:00</td>
+                        <td>Matko Zlatić</td>
+                        <td>
+                            <a href="#wireguard" class="is-underlined">
+                                Review of Open Source Wireguard Solutions
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>17:15 - 18:00</td>
+                        <td>Hank Scorpio</td>
+                        <td>
+                            <a href="#fun-with-vms" class="is-underlined">
+                                Fun with VMs
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>18:00 -> </td>
+                        <td></td>
+                        <td>Closing Ceremony and Social Time</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
           </div>
+      </section>
+	  
+      <section class="section py-1 px-3">
+        <div class="container">
+        <div class="block is-size-7">
+            <sup>*</sup> The cake is not a lie
+        </div>
+        </div>
+    </section>
+
+
+      <section class="section py-1 px-3">
+        <div class="container">
+        <h2 class="title is-size-4 pt-6" id="goodbye-xslt"><a href="#goodbye-xslt" aria-hidden="true" class="header-anchor">#</a>Ivan Fratric - Goodbye, XSLT</h2>
+        <div class="block">
+            Originally introduced in the late 1990s, XSLT is a technology designed to transform XML documents into HTML and other formats. Late last year, Chrome announced plans to deprecate and remove support for the feature, with other major browsers following suit. This decision was justified by a security risk, specifically citing research from Project Zero. In this talk, we are going to take a closer look at how XSLT was implemented in web browsers and analyze some of the most difficult-to-fix vulnerabilities that contributed to the decision to remove the feature.
+        </div>
+
+        <h2 class="title is-size-5"># About the speaker</h2>
+        <div class="block">
+            Ivan Fratric is a tech lead and a security researcher at Google Project Zero. In his research work, he mainly focuses on remote attack surfaces and tooling. Previously, he worked on the Google Security Team and, before that, at the University of Zagreb where he received his PhD. He has been publishing security research for almost two decades and is the author of multiple open-source security tools.
+        </div>
+        </div>
+    </section>
+
+
+    <section class="section py-1 px-3">
+        <div class="container">
+        <h2 class="title is-size-4 pt-6" id="voidlink-cloud-first-post-exploitation-framework"><a href="#voidlink-cloud-first-post-exploitation-framework" aria-hidden="true" class="header-anchor">#</a>Vanja Svajcer - Voidlink - cloud-first post exploitation framework</h2>
+        <div class="block">
+			VoidLink is a new modular framework that targets Linux based systems. Modular frameworks are prevalent on the landscape today with the likes of Cobalt Strike, Manjusaka, Alchimist, and SuperShell among the many operating today. This framework is an implant management framework denoting a consistent and concerning evolution with shorter development cycles.<br><br>
+		    VoidLink development appears to be a more recent addition with the aid of large language model (LLM) based  integrated development environment (IDE).<br><br>
+		    VoidLink only appears to have implants developed for Linux, although the implant code is written in such a way that can easily be adapted to other languages. The main implant is written in ZigLang, a rather uncommon language; however the plugins are written in C. When needed these are loaded via an ELF linker and loader.<br><br>
+			The Linux implants have advanced features, such as an eBPF or Loadable Kernel Module (LKM) based rootkit, container privilege escalation, and sandbox escape. Voidlink is an excellent example that shows how threat actors are moving away from exploiting Windows endpoints into cloud environments and edge devices. This presentation is an in-depth discussion of the functionality as well as the threat actor using it.
+        </div>
+
+        <h2 class="title is-size-5"># About the speaker</h2>
+        <div class="block">
+            Vanja Svajcer works as a Threat Researcher at Cisco Talos. Vanja enjoys tinkering with automated analysis systems, reversing binaries and analysing mobile malware. He thinks time spent scraping telemetry data to find indicators of new attacks is well worth the effort. He presented his work at conferences such as FSec, Bsides, Virus Bulletin, RSA, CARO, AVAR, BalcCon and others.
+        </div>
+        </div>
+    </section>
+
+
+    <section class="section py-1 px-3">
+        <div class="container">
+        <h2 class="title is-size-4 pt-6" id="times-change-tricks-do-not"><a href="#times-change-tricks-do-not" aria-hidden="true" class="header-anchor">#</a>Tomislav Turek - Times change, tricks don't </h2>
+        <div class="block">
+            In this talk, we will walk through a case where a conversational interface with conventional backend tooling had seemingly reasonable design choices which eventually led to unexpected security issues and remote code execution. The talk shows that standard security best practices still apply in the new AI-driven landscape and that changing the interface does not mean you can skip the usual defenses and hard boundaries.
+        </div>
+
+        <h2 class="title is-size-5"># About the speaker</h2>
+        <div class="block">
+            Tomislav Turek works in Infobip's Application Security team, which analyzes and performs security reviews of application systems, integrations and code. While mostly focused on application security and software engineering, he likes to tinker with all things related to security. He is an active member of the Croatian capture the flag team 'Phish Paprikaš', with whom he has achieved significant success in information security competitions.
+        </div>
+        </div>
+    </section>
+
+
+    <section class="section py-1 px-3">
+        <div class="container">
+        <h2 class="title is-size-4 pt-6" id="silent-receipts-loud-signals"><a href="#silent-receipts-loud-signals" aria-hidden="true" class="header-anchor">#</a>Dejan Strbad - Silent Receipts, Loud Signals: Offensive and Defensive ML for Messaging App Surveillance </h2>
+        <div class="block">
+            Silent delivery receipts in WhatsApp and Signal can be exploited to infer a target's online status, device count, and operating system, all without generating any notification. <br><br>
+            Building on the "Careless Whisper" research (https://arxiv.org/abs/2411.11194), we reproduce and extend this attack using practical tooling built with AI agents and custom ML pipelines, pushing the boundaries on both the offensive and defensive side.<br><br>
+            On the offensive side, we train a classification model on delivery receipt timing patterns to infer a user's physical context (home, work, commuting, sleeping). We further explore whether timing correlation of receipt patterns can reveal co-location, determining if two target phone numbers share the same network.<br><br>
+            On the defensive side, we build a local network monitor that uses traffic analysis to detect when delivery receipt probing is being conducted against devices on your network, turning the attack into a detection opportunity.<br><br>
+            We discuss implications for stalkerware detection — reminding that metadata alone can be deeply revealing, and a phone number remains a dangerously powerful attack surface.
+        </div>
+
+        <h2 class="title is-size-5"># About the speaker</h2>
+        <div class="block">
+            Dejan Strbad breaks things and builds things — sometimes in that order. A serial entrepreneur and security enthusiast, he co-founded Ascalia (IIoT/Industry 4.0) and is a researcher at the Lisbon Council. With over a decade of experience spanning solution architecture, software engineering, and machine learning, his current obsession is solving problems with ML - the messier, the better.
+        </div>
+        </div>
+    </section>
+
+
+    <section class="section py-1 px-3">
+        <div class="container">
+        <h2 class="title is-size-4 pt-6" id="real-world-ransomware-incident"><a href="#real-world-ransomware-incident" aria-hidden="true" class="header-anchor">#</a>Dejan Grubic, Vlatko Kosturjak - Technical Analysis and Lessons from a Real-World Ransomware incident</h2>
+        <div class="block">
+            Ransomware continues to pose a significant threat to modern organizations, disrupting operations and compromising critical data assets. We will present a detailed case study of a ransomware incident, focusing on the technical progression of the attack, from initial access to payload execution and lateral movement. Through forensic analysis, we reconstruct the attacker’s tactics, techniques, and procedures (TTPs), highlighting vulnerabilities that enabled the breach. The study also evaluates the effectiveness of detection and response mechanisms, identifying key gaps in security posture. Finally, the paper outlines actionable lessons learned and provides recommendations for strengthening resilience against similar attacks, including improvements in monitoring, incident response planning, and system hardening.
+        </div>
+
+        <h2 class="title is-size-5"># About the speakers</h2>
+        <div class="block">
+            Dejan Grubić, IT expert with long experience in creating virtual and cloud IT environments. He gained experience and knowledge through work for large system integrators in the region and as a regional representative of global companies in the field of virtualization, security solutions and data protection. Currently, as the head of the Cybersecurity Incident Response Team within Marlink Cyber, he encounters various types of incidents that occur globally, not only within the Adriatic region.<br><br>
+Vlatko Kosturjak serves as the VP of Research at Marlink Cyber, boasting over two decades of dedicated experience in the realms of information security and cybersecurity. He have successful M&A experience in different fields of cyber security and in different roles.
+        </div>
+        </div>
+    </section>
+
+
+    <section class="section py-1 px-3">
+        <div class="container">
+        <h2 class="title is-size-4 pt-6" id="caveats-using-ebpf-in-linux"><a href="#caveats-using-ebpf-in-linux" aria-hidden="true" class="header-anchor">#</a>Dinko Korunić - Caveats using eBPF in Linux</h2>
+        <div class="block">
+            This talk explores the real-world caveats of using eBPF in production systems. We’ll examine verifier limitations, kernel version drift, CO-RE portability challenges, memory and stack constraints, and the often-overlooked operational complexity of deploying and maintaining eBPF programs at scale.
+        </div>
+
+        <h2 class="title is-size-5"># About the speaker</h2>
+        <div class="block">
+            Dinko Korunić is a seasoned IT professional and Principal Cloud Architect at HAProxy Technologies, with over two decades of experience in cloud architecture, systems engineering, and large-scale infrastructure design. He has led cloud platform development and interoperability projects across container and hypervisor environments, and has deep expertise in Unix/Linux systems, security, and open-source technologies. Korunić holds a degree in computer science and has contributed to numerous technology deployments, published technical articles, and maintained open-source software throughout his career.
+        </div>
+        </div>
+    </section>
+
+
+    <section class="section py-1 px-3">
+        <div class="container">
+        <h2 class="title is-size-4 pt-6" id="building-a-global-appletalk-network"><a href="#building-a-global-appletalk-network" aria-hidden="true" class="header-anchor">#</a>Vlado Vince - Networked Anachronisms: Building a Global AppleTalk Network a Few Decades Too Late</h2>
+        <div class="block">
+            AppleTalk was a collection of standards, protocols and products developed by Apple in the mid 1980s to connect Macintosh computers to each other. 40 years later, a bunch of nerds found an obscure routing software and connected their ancient Macs into the first global AppleTalk network: GlobalTalk. This is the story of how we looked back and accidentally reinvented a new networked community... Again!
+        </div>
+
+        <h2 class="title is-size-5"># About the speaker</h2>
+        <div class="block">
+            Vlado is a technologist with an interest in the history of computing and networks, with a focus on non-Western countries before the end of the Cold War. He posts about his research on his blog, Bluesky and Mastodon.
+        </div>
+        </div>
+    </section>
+
+
+    <section class="section py-1 px-3">
+        <div class="container">
+        <h2 class="title is-size-4 pt-6" id="wireguard"><a href="#wireguard" aria-hidden="true" class="header-anchor">#</a>Matko Zlatić - Review of Open Source Wireguard Solutions</h2>
+        <div class="block">
+            A review of vulnerabilities and bugs found while researching available open source solutions that utilize Wireguard. These applications are often used in home and lab setups because they enable easier configuration and generaly extend the use of the protocol. However, they also introduce a whole new attack surface attractive to attackers.
+        </div>
+
+        <h2 class="title is-size-5"># About the speaker</h2>
+        <div class="block">
+            Security consultant and researcher, CS masters student, in general a chaos gremlin.
+        </div>
+        </div>
+    </section>
+
+
+    <section class="section py-1 px-3">
+        <div class="container">
+        <h2 class="title is-size-4 pt-6" id="fun-with-vms"><a href="#fun-with-vms" aria-hidden="true" class="header-anchor">#</a>Hank Scorpio - Fun with VMs</h2>
+        <div class="block">
+            IR engagement
+        </div>
+
+        <h2 class="title is-size-5"># About the speaker</h2>
+        <div class="block">
+            Supervillain with a heart of gold
+        </div>
+        </div>
+    </section>
+
 
       <section class="section px-3">
           <div class="container">
